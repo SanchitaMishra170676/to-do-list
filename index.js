@@ -3,7 +3,7 @@ let addbutton = document.querySelector("#add-btn");
 let todo = document.querySelector("#to-do-list");
 // console.log(inputfield ,addbutton)
 
-
+//These are event listners
 addbutton.addEventListener('click', finalcode)
 inputfield.addEventListener('keypress', function (e) {
     if (e.key === 'Enter') {
